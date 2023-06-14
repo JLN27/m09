@@ -88,19 +88,18 @@
   }
 }
 
-
-.reconocimiento-voz{
-  background-color: gray;
-  border: 0px;
-  border-radius: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-right: 10vw;
-  color: black;
+.reconocimiento-voz {
+  background-color: gray; /* Color de fondo gris */
+  border: 0px; /* Sin borde */
+  border-radius: 20px; /* Borde redondeado */
+  padding-left: 20px; /* Espaciado interno izquierdo de 20px */
+  padding-right: 20px; /* Espaciado interno derecho de 20px */
+  padding-top: 5px; /* Espaciado interno superior de 5px */
+  padding-bottom: 5px; /* Espaciado interno inferior de 5px */
+  margin-right: 10vw; /* Margen derecho de 10% del ancho de la ventana */
+  color: black; /* Color del texto en negro */
 }
 
-.navbar-collapse{
-  color: grey;
+.navbar-collapse {
+  color: grey; /* Color del texto en gris */
 }

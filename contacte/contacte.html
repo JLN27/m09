@@ -2,8 +2,15 @@
 <html>
     <head>
         <title>Contacte</title>
+        
+        <!-- KeyWords y description para SEO -->
+        <meta name="description" content="Envia el teu missatge a través del formulari de contacte.">
+        <meta name="keywords" content="contacte, formulari de contacte, missatge">
+
+        <!-- Configuración de almacenamiento en caché -->
+        <meta http-equiv="Cache-Control" content="max-age=3600, public">
+        <meta http-equiv="Expires" content="Mon, 01 Jan 2024 00:00:00 GMT">
         <!-- Enlace a los css -->
-        <!-- Se incluyen los estilos CSS -->
         <link rel="stylesheet" type="text/css" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
         <link rel="stylesheet" type="text/css" href="contacte.css">
@@ -29,7 +36,6 @@
         })();
     </script>
     <!-- End Matomo Code -->
-  
     </head>
     <body>
         <!-- Cabecera -->
@@ -57,9 +63,7 @@
             </div>
             <!--Boton para reconocer voz-->
             <button id="start-listening" class="reconocimiento-voz">Iniciar Reconeixença de Veu</button>
-
         </nav>
-        
         <!-- Video -->
         <div class="video-container">
             <video autoplay muted loop id="myVideo">
@@ -74,7 +78,6 @@
             </div>
         </div>
         <div id="map"></div>
-
         <footer class="footer bg-dark">
             <div class="container text-center">
                 <!-- Texto del pie de página -->
@@ -88,9 +91,7 @@
                 </div>
             </div>
         </footer>
-
         <!-- Scripts -->
-        <!-- Se incluyen los scripts de Bootstrap y el script personalizado -->
         <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
         <script src="contacte.js"></script>
     </body>
